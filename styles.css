@@ -13,6 +13,7 @@
 
 body {
     background-color: white;
+    font-family: "Open Sans", sans-serif;
 }
 
 
@@ -20,7 +21,8 @@ body {
     background-color: beige;
     margin-left: 15px;
     margin-right: 15px;
-    height: 175px;
+    height: 200px;
+    font-family: "Open Sans", sans-serif;
 }
 
 
@@ -33,8 +35,37 @@ body {
     margin-right: 15px;
     float: left;
     padding: 3px 20px 20px 10px;
+    border: 0;
 }
 
 .legend {
     font-weight: bold;
+}
+
+.dog {
+    float: left;
+    width: 30%;
+    margin: 1.66%;
+}
+
+.dogList{
+    list-style-type: none;
+}
+
+.dogName{
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.descriptionButtons{
+    list-style-type: none;
+}
+
+#dogAttributes{
+    font-weight: bold;
+    color: black;
+    background: aquamarine;
+    -webkit-border-radius: 28;  
+    -moz-border-radius: 28;  
+    border-radius: 28px;
 }
