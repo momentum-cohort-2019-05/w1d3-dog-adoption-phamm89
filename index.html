@@ -17,11 +17,74 @@
         <h2 id="selectDog">Adopt a Dog</h2>
     </div>
     <br>
-    <form id="adoptionForm">
-        <div id="chooseDog">
-            <p id="textForm">If you are interested in adopting one of our animals, please fill out our <a id="onlineForm" href=''>online adoption form.</a></p> 
-
-    </form>
+    <p id="textForm">If you are interested in adopting one of our animals, please fill out our <a id="onlineForm" href=''>online adoption form.</a></p>
+    <br>
+    <div id="adoptionFormDiv">
+        <p class="showDogs">Show me dogs that are</p>
+        <form id="adoptionForm">
+                <fieldset class="fieldset">
+                    <legend class="legend">Gender</legend>
+                    <div>
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label>
+                        </div>
+                        <div>
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label>
+                        </div>
+                        <div>
+                        <input type="radio" name="gender" id="all" value="all">
+                        <label for="all">All</label>
+                    </div>
+                </fieldset>
+        </form>
+        <form class="form">
+                <fieldset class="fieldset">
+                    <legend class="legend">Age</legend>
+                    <div>
+                        <input type="radio" name="age" id="puppy" value="puppy">
+                        <label for="puppy">Puppy</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="age" id="young" value="young">
+                        <label for="young">Young</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="age" id="adult" value="adult">
+                        <label for="adult">Adult</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="age" id="senior" value="senior">
+                        <label for="senior">Senior</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="age" id="all_2" value="all_2">
+                        <label for="all_2">All</label>
+                    </div>
+                </fieldset>
+        </form>
+        <form class="form">
+                <fieldset class="fieldset">
+                    <legend class="legend">Size</legend>
+                    <div>
+                        <input type="checkbox" name="size" id="tiny" value="tiny">
+                        <label for="tiny">Tiny</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="size" id="small" value="small">
+                        <label for="small">Small</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="size" id="medium" value="medium">
+                        <label for="medium">Medium</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="size" id="large" value="medium">
+                        <label for="large">Large</label>
+                    </div>
+                </fieldset>
+            </form>
+    </div>
 </body>
 </html>
 
