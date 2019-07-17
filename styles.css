@@ -43,15 +43,17 @@ body {
 }
 
 .dog {
-    float: left;
-    width: 30%;
-    margin: 1.66%;
+    width: 40%;
 }
 
 .dogPictures {
-    margin: 1rem 2rem;
+    margin: 3rem 3rem;
     display: flex;
-    flex-wrap: wrap;
+}
+
+.dogs-row3{
+    max-width: 32%;
+    margin-right: 0.5rem;
 }
 
 
@@ -62,9 +64,7 @@ body {
 
 .descriptionButtons{
     list-style-type: none;
-    margin: 1rem 2rem;
-    display: flex;
-    flex-wrap: wrap;
+    margin-bottom: .5rem;
 }
 
 #dogAttributes{
@@ -74,4 +74,58 @@ body {
     -webkit-border-radius: 28;  
     -moz-border-radius: 28;  
     border-radius: 28px;
+    margin-right: .5rem;
+    margin-top: .2rem;
+    padding: .2rem;
 }
+
+.bottomPics {
+    display: flex;
+    justify-content: space-between;
+    height: 15rem;
+    margin-top: 2rem;
+}
+
+.bottomPics a {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.donate {
+    text-align: center;
+    width: 35%;
+    padding-top: 6.5rem;
+    background-image: url(/Users/phamm89/MomentumAssignments/DogAdoption/w1d3-dog-adoption-phamm89/starter_files/images/donate.jpg);
+    background-color: red;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.volunteer {
+    text-align: center;
+    width: 35%;
+    padding-top: 6.5rem;
+    background-image: url(/Users/phamm89/MomentumAssignments/DogAdoption/w1d3-dog-adoption-phamm89/starter_files/images/volunteer.jpg);
+    background-color: violet;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.our-location {
+    text-align: center;
+    width: 30%;
+    padding-top: 6.5rem;
+    background-image: url(/Users/phamm89/MomentumAssignments/DogAdoption/w1d3-dog-adoption-phamm89/starter_files/images/location.png);
+    background-color: goldenrod;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
