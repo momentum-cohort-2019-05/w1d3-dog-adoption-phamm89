@@ -115,7 +115,7 @@
     </div>
     <section class="dogPictures">
         <div class="dogs-row1">
-            <img class="dog" alt="beans" src="/Users/phamm89/MomentumAssignments/DogAdoption/w1d3-dog-adoption-phamm89/starter_files/images/beans.jpg">
+            <img class="dog" alt="beans" src="{% static 'images/beans.jpg'%}">
                 <p class="dogName">Beans</p>
                 <div class="descriptionButtons">
                     <button id='dogAttributes'>Adult</button>
@@ -124,7 +124,7 @@
                     <button id='dogAttributes'>Easygoing</button>
                     <button id='dogAttributes'>Good with cats</button>
                 </div>
-            <img class="dog" alt="zelda" src="/Users/phamm89/MomentumAssignments/DogAdoption/w1d3-dog-adoption-phamm89/starter_files/images/boston-terrier.jpg">
+            <img class="dog" alt="zelda" src="{% static 'images/boston-terrier.jpg'%}">
                 <p class="dogName">Zelda</p>
                 <div class="descriptionButtons">
                     <button id='dogAttributes'>Senior</button>
@@ -134,7 +134,7 @@
                     <button id='dogAttributes'>Good with kids</button>
                     <button id='dogAttributes'>Good with other dogs</button>
                 </div>
-            <img class="dog" alt="baby" src="/Users/phamm89/MomentumAssignments/DogAdoption/w1d3-dog-adoption-phamm89/starter_files/images/boxer.jpg">
+            <img class="dog" alt="baby" src="{% static 'images/boxer.jpg'%}">
                 <p class="dogName">Baby</p>
                 <div class="descriptionButtons">
                     <button id='dogAttributes'>Young</button>
@@ -146,7 +146,7 @@
                 </div>
         </div>
         <div class="dogs-row2">
-            <img class="dog" alt="tom-tom" src="/Users/phamm89/MomentumAssignments/DogAdoption/w1d3-dog-adoption-phamm89/starter_files/images/golden-lab.jpg">
+            <img class="dog" alt="tom-tom" src="{% static 'images/golden-lab.jpg'%}">
                 <p class="dogName">Tom-Tom</p>
                 <div class="descriptionButtons">
                     <button id='dogAttributes'>Young</button>
@@ -157,7 +157,7 @@
                     <button id='dogAttributes'>Good with other dogs</button>
                     <button id='dogAttributes'>Good with other cats</button>
                 </div>
-            <img class="dog" alt="marco" src="/Users/phamm89/MomentumAssignments/DogAdoption/w1d3-dog-adoption-phamm89/starter_files/images/little-dog.jpg">
+            <img class="dog" alt="marco" src="{% static 'images/little-dog.jpg'%}">
                 <p class="dogName">Marco</p>
                 <div class="descriptionButtons">
                     <button id='dogAttributes'>Adult</button>
@@ -165,7 +165,7 @@
                     <button id='dogAttributes'>Small</button>
                     <button id='dogAttributes'>Energetic</button>
                 </div>
-            <img class="dog" alt="shackleton" src="/Users/phamm89/MomentumAssignments/DogAdoption/w1d3-dog-adoption-phamm89/starter_files/images/old-shaggy.jpg">
+            <img class="dog" alt="shackleton" src="{% static 'images/old-shaggy.jpg'%}">
                 <p class="dogName">Shackleton</p>
                 <div class="descriptionButtons">
                     <button id='dogAttributes'>Adult</button>
@@ -179,7 +179,7 @@
                 </div>
         </div>
         <div class="dogs-row3">
-            <img class="dog" alt="midge" src="/Users/phamm89/MomentumAssignments/DogAdoption/w1d3-dog-adoption-phamm89/starter_files/images/shih-tzu.jpg">
+            <img class="dog" alt="midge" src="{% static 'images/shih-tzu.jpg'%}">
                 <p class="dogName">Midge</p>
                 <div class="descriptionButtons">
                     <button id='dogAttributes'>Adult</button>
@@ -188,7 +188,7 @@
                     <button id='dogAttributes'>Easygoing</button>
                     <button id='dogAttributes'>Good with kids</button>
                 </div>
-            <img class="dog" alt="ladybird" src="/Users/phamm89/MomentumAssignments/DogAdoption/w1d3-dog-adoption-phamm89/starter_files/images/young-bulldog.jpg">
+            <img class="dog" alt="ladybird" src="{% static 'images/young-bulldog.jpg'%}">
                 <p class="dogName">Ladybird</p>
                 <div class="descriptionButtons">
                     <button id='dogAttributes'>Young</button>
@@ -200,7 +200,7 @@
                     <button id='dogAttributes'>Good with other dogs</button>
                     <button id='dogAttributes'>Good with cats</button>
                 </div>
-            <img class="dog" alt="mina" src="/Users/phamm89/MomentumAssignments/DogAdoption/w1d3-dog-adoption-phamm89/starter_files/images/young-peppy.jpg">
+            <img class="dog" alt="mina" src="{% static 'images/young-peppy.jpg'%}">
                 <p class="dogName">Mina</p>
                 <div class="descriptionButtons">
                     <button id='dogAttributes'>Puppy</button>
@@ -214,9 +214,54 @@
         </div>
     </section>
     <section class="bottomPics">
-        <div class="donate"><a href="">Donate</a></div>
-        <div class="volunteer"><a href="">Volunteer</a></div>
-        <div class="our-location"><a href="">Our location</a></div>
+        <div class="donate">
+            <style>
+                .donate {
+                    text-align: center;
+                    width: 35%;
+                    padding-top: 6.5rem;
+                    background-image: url("{% static 'images/donate.jpg'%}");
+                    background-color: red;
+                    background-blend-mode: overlay;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+            </style>
+            <a href="">Donate</a>
+        </div>
+        <div class="volunteer">
+            <style>
+                .volunteer {
+                    text-align: center;
+                    width: 35%;
+                    padding-top: 6.5rem;
+                    background-image: url("{% static 'images/volunteer.jpg'%}");
+                    background-color: violet;
+                    background-blend-mode: overlay;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+            </style>
+            <a href="">Volunteer</a>
+        </div>
+        <div class="our-location">
+            <style>
+                .our-location {
+                    text-align: center;
+                    width: 30%;
+                    padding-top: 6.5rem;
+                    background-image: url("{% static 'images/location.png'%}");
+                    background-color: goldenrod;
+                    background-blend-mode: overlay;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+            </style>
+            <a href="">Our location</a>
+        </div>
     </section>
 </body>
 </html>

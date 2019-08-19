@@ -92,40 +92,5 @@ body {
     font-size: 2rem;
 }
 
-.donate {
-    text-align: center;
-    width: 35%;
-    padding-top: 6.5rem;
-    background-image: url(/Users/phamm89/MomentumAssignments/DogAdoption/w1d3-dog-adoption-phamm89/starter_files/images/donate.jpg);
-    background-color: red;
-    background-blend-mode: overlay;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.volunteer {
-    text-align: center;
-    width: 35%;
-    padding-top: 6.5rem;
-    background-image: url(/Users/phamm89/MomentumAssignments/DogAdoption/w1d3-dog-adoption-phamm89/starter_files/images/volunteer.jpg);
-    background-color: violet;
-    background-blend-mode: overlay;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.our-location {
-    text-align: center;
-    width: 30%;
-    padding-top: 6.5rem;
-    background-image: url(/Users/phamm89/MomentumAssignments/DogAdoption/w1d3-dog-adoption-phamm89/starter_files/images/location.png);
-    background-color: goldenrod;
-    background-blend-mode: overlay;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 
